@@ -19,7 +19,7 @@
   :version 1.0
   :license "Lisp Lesser GNU General Public License"
   :description "Simple lexical analyzer generator"
-  :depends-on (:fiveam :cl-ppcre)
+  :depends-on (:cl-ppcre)
   :components
   ((:file "package")
    (:file "lexer" :depends-on ("package"))))

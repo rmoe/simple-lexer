@@ -12,6 +12,3 @@
   (:export #:deflexer
 	   #:int
 	   #:%0))
-
-(defpackage simple-lexer-tests
-  (:use :cl :simple-lexer :fiveam))
